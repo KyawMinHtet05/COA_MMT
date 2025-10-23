@@ -17,8 +17,9 @@ target = int(input("Enter number to search: "))
 
 result = search_obj.search_element(target)
 
-# Displaying the result
+# Displaying the Result
 if result != -1:
     print(f"Element found at index {result}")
 else:
+
     print("Element not found")
